@@ -7,3 +7,4 @@ Simple YouTube downloader made with python
 `python youtubeDownloader`
 ## Author
 lilo550
+### You can make a proposal to upgrade this little project
