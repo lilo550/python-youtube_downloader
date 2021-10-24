@@ -4,7 +4,7 @@ Simple YouTube downloader made with python
 - *pytube*
 - To install *pytube* run on your terminal: `pip install pytube`
 ## How to run the script
-`python youtubeDownloader`
+`python youtube_downloader`
 ## Author
 lilo550
 ### You can make a proposal to upgrade this little project
