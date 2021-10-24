@@ -12,14 +12,14 @@ class YoutubeDownloader:
         self.window.iconbitmap('logo.ico')
         self.window.iconphoto(False, PhotoImage(file='logo.png'))
 
-        # initialisation des composants
+        # component initialization
         self.url = StringVar()
         self.frame = Frame(self.window, bg='white')
 
-        # creation des composants
+        # component creation
         self.create_widgets()
 
-        # enpaquetage de la frame
+        # frame packaging
         self.frame.pack()
 
     def create_widgets(self):
@@ -48,7 +48,7 @@ class YoutubeDownloader:
         video.download()
         
 
-#afficher
+# Display
 yt = YoutubeDownloader()
 yt.window.mainloop()
 
